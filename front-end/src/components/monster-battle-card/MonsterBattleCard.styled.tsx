@@ -34,3 +34,29 @@ export const ProgressBar = styled(LinearProgress)(() => ({
         backgroundColor: colors.progressColor,
     },
 }));
+
+export const Image = styled.img(() => ({
+    borderRadius: '0.43rem',
+    width: '283px',
+    height: '178px',
+}));
+
+export const BattleMonsterName = styled(Typography)(() => ({
+    fontFamily: 'Roboto',
+    fontStyle: 'normal',
+    fontWeight: '400',
+    fontSize: '22px',
+    lineHeight: 'auto',
+    color: colors.black,
+}));
+
+export const BattleMonsterTextSkill = styled(Typography)(() => ({
+    fontFamily: 'Roboto',
+    fontStyle: 'normal',
+    fontWeight: '400',
+    fontSize: '12px',
+    lineHeight: 'auto',
+    color: colors.black,
+    paddingTop: '11px',
+    paddingBottom: '5px',
+}))
